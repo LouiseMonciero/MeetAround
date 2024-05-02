@@ -1,0 +1,8 @@
+To run the projet => start a local php server on your terminal.
+
+1) il faut installer php,
+2) Ouvrir le terminal
+3) se deplacer dans le dossier de ce projet
+4) lancer la commande : php -S localhost:8000
+    
+5) dans un navigateur, ouvvrir  http://localhost:8000/acceuil.php
