@@ -7,7 +7,8 @@
     <title>Acceuil</title>
     <link rel="stylesheet" href="styles.css">
 </head>
-    <?php initialize_data_base();?>
+    <?php //initialize_data_base();
+    connect_with_database();?>
     <body>
         <header>
 
@@ -22,7 +23,6 @@
             </div>
             <section id="liste_devenement_selectione">
                     <?php select_all_event();?>
-                    <?php echo "<p>efzef</p>"?>
 
             </section>
         </main>
